@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="39dd13dc-730c-49c7-b466-006b9aa899e7" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="0f9ed7a4-cc3f-498b-9964-d23425928025" name="UI&#xD;&#xA;(NLayerEF)">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="f02e04cb-0272-4837-8bce-c62384fc0cea" direction="Forward">
+          <layerMoniker Id="c3fa44bc-94b1-40b6-be8b-98c78b6b882c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="eacd9092-aaff-40f5-82f8-d29e00187834" direction="Forward">
+          <layerMoniker Id="89a4ddc5-87d3-4f84-a7ee-1f078f1b34e8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="1d4fc51e-c9a4-4919-8159-6adc047edb6a" name="Database&#xD;&#xA;(NLayerEF.Data)" />
+    <layer Id="89a4ddc5-87d3-4f84-a7ee-1f078f1b34e8" name="Models&#xD;&#xA;(NLayerEF.Domain)" />
+    <layer Id="0115f78a-315b-4ea6-8826-7bd520184e18" name="Infrastructure&#xD;&#xA;(NLayerEF.Infrastructure)">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="5abf407c-ebd5-4cf4-af55-0bdfea5ea27c" direction="Forward">
+          <layerMoniker Id="89a4ddc5-87d3-4f84-a7ee-1f078f1b34e8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="c3fa44bc-94b1-40b6-be8b-98c78b6b882c" name="Services&#xD;&#xA;(NLayerEF.Services)">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="bf693aee-3cb5-4ea5-b11d-87216ea58560" direction="Forward">
+          <layerMoniker Id="89a4ddc5-87d3-4f84-a7ee-1f078f1b34e8" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="0d86ec73-ae9a-4b2c-addf-fe49268d88ad" direction="Forward">
+          <layerMoniker Id="0115f78a-315b-4ea6-8826-7bd520184e18" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+  </layers>
+</layerModel>
